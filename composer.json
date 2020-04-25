@@ -13,9 +13,13 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "support": {
+        "email": "support@example.org",
+        "docs": "https://gauravgitgithub.github.io/validate/"
+    },
     "autoload": {
         "psr-0": {
-            "validate": "/"
+            "validate": ["app/", "config/"]
         }
 
 }

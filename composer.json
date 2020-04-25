@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "validate": ["app/", "config/"]
+            "validate\\": ["app/", "config/"]
         }
 
 }
